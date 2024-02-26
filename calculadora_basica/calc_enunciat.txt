@@ -1,0 +1,18 @@
+Imaginem que vols desenvolupar una calculadora bàsica utilitzant Kotlin. Divideix aquest problema en diverses funcions amb l'objectiu de seguir la metodologia de disseny top-down i la parametrització de funcions. A continuació, t'oferim un exercici senzill per practicar aquests conceptes:
+
+1. Funció per Sumar:
+   - Crea una funció anomenada `sumar` que prengui dos paràmetres d'entrada de tipus `Int` i retorni la seva suma.
+
+2. Funció per Restar:
+   - Implementa una funció anomenada `restar` que rebi dos paràmetres d'entrada de tipus `Int` i torni la seva diferència.
+
+3. Funció per Multiplicar:
+   - Desenvolupa una funció anomenada `multiplicar` que accepti dos paràmetres d'entrada de tipus `Int` i retorni el producte.
+
+4. Funció per Dividir:
+   - Crea una funció anomenada `dividir` que prengui dos paràmetres d'entrada de tipus `Int` i torni el resultat de la seva divisió. Assegura't que gestiona el cas de divisió per zero.
+
+5. Funció Principal:
+   - Implementa una funció principal anomenada `main` que cridi a cada una de les funcions anteriorment definides amb diferents valors i mostri els resultats a la consola.
+
+Recorda utilitzar la metodologia de disseny top-down, començant per les operacions bàsiques i després construint la funció principal. Aprofita els paràmetres d'entrada per a la parametrització adequada de les teves funcions.
