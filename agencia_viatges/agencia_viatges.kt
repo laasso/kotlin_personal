@@ -1,5 +1,3 @@
-var viatgesLlista = mapOf(1 to "1. Barcelona", 2 to "2. Granada" ,3 to "3. Madrid")
-
 fun eleccion() {
         interficieUsuari()
         gestioViatges()
@@ -9,13 +7,11 @@ fun eleccion() {
     }
 
 fun gestioViatges() {
-    println(viatgesLlista)
-
+    print("1")
 }
 
 fun clientReserva () {
-    println(viatgesLlista)
-
+    print("1")
 }
 
 fun interficieUsuari() {
@@ -29,9 +25,18 @@ fun main(){
 
 fun mostrarDestinacio() {
     println("Les destinacions disponibles son:")
-    println(viatgesLlista.values)
+    declararViatges()
 }
 
 fun informacioPersonal() {
+    print("1")
+}
+
+fun declararViatges(){
+    val viatge = arrayOf("Barcelona", 2025, "December"," 2 Hours")
+    val viatge2 = arrayOf("Granada", 2024, "August"," 1 Hours")
+    val viatge3 = arrayOf("Madrid", 2024, "May"," 3 Hours")
+    var viatgesLlista = mutableListOf(viatge, viatge2, viatge3)
+    print(viatgesLlista.toString())
 
 }
