@@ -1,10 +1,10 @@
-
-var viatgesLlista = arrayOf("1. Barcelona", "2. Granada", "3. Madrid")
+var viatgesLlista = mapOf(1 to "1. Barcelona", 2 to "2. Granada" ,3 to "3. Madrid")
 
 fun eleccion() {
+        interficieUsuari()
         gestioViatges()
         clientReserva()
-        interficieUsuari()
+        
 
     }
 
@@ -29,5 +29,9 @@ fun main(){
 
 fun mostrarDestinacio() {
     println("Les destinacions disponibles son:")
-    println(viatgesLlista.joinToString())
+    println(viatgesLlista.values)
+}
+
+fun informacioPersonal() {
+
 }
