@@ -18,10 +18,11 @@ fun more_amunt() {
     this.y += 1
 }
 
-fun more_avall() {
+fun more_avall() {4x
     this.y -= 1
 }
 
 class Main {
     constructor() 
 }
+
