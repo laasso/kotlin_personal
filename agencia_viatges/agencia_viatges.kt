@@ -1,5 +1,3 @@
-
-
 import kotlin.arrayOf
 fun eleccion() {
         interficieUsuari()
